@@ -19,8 +19,8 @@ video.MobileNet as a backbone should be used.<br>The task uses a dataset with la
 6.  During this process the Notebook will install Tensorflow Object Detection. You should ideally receive a notification indicating that the API has installed successfully at Step 6 with the last line stating OK.<br><br>
 If not, resolve installation errors by referring to the Error Guide.md in this folder.<br><br>
 7. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics.<br><br>
+8. The model is loaded and this pipeline helps in real-time detection of hands using a real-time video capture using webcam.
 ## Resources
 * wget.download('https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/_downloads/da4babe668a8afb093cc7776d7e630f3/generate_tfrecord.py')<br>
 * Setup https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
 * Tensorflow Models: https://github.com/tensorflow/models
-* 
