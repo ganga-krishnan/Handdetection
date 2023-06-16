@@ -151,7 +151,7 @@ if os.path.exists(ARCHIVE_FILES):
 
 
 if not os.path.exists(files['TF_RECORD_SCRIPT']):
-    get_ipython().system("git clone https://github.com/nicknochnack/GenerateTFRecord {paths['SCRIPTS_PATH']}")
+    get_ipython().system("git clone https://github.com/ganga-krishnan/Handdetection/blob/main/generate_tfrecord.py {paths['SCRIPTS_PATH']}")
 
 
 # In[13]:
